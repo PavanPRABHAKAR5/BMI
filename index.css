@@ -1,0 +1,22 @@
+body{
+    align-items: center;
+}
+.container{
+   border: 1px solid black;
+   height: 70vh;
+   width: 30vw;
+   background-color: skyblue;
+}
+
+.container form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result{
+    font-size: larger;
+    color: green;
+    padding: 20px;
+    font-weight: bolder;
+}
